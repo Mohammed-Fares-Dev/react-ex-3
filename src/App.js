@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Cadr from './components/Cadr';
-import Input from './components/Input';
+import Inputbox from './components/InputBox';
 
 function App() {
 
@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Cadr color={color} />
-      <Input color={color} handlColor={handlColor} />
+      <Inputbox color={color} handlColor={handlColor} />
     </div>
   );
 }
